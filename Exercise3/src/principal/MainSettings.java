@@ -2,6 +2,11 @@ package principal;
 
 public class MainSettings {
 	public static void main(String args[]){	
-		System.out.println("Tercer ejercicio de pruebas!!!");
+		imprimir("Tercer ejercicio de pruebas!!!");
 	}
+	
+	public static void imprimir(String mensaje){
+		System.out.println(mensaje);
+	}
+	
 }
